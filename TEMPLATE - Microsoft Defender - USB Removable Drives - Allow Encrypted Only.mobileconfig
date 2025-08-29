@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.wdav</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>deviceControl</key>
+								<dict>
+									<key>policy</key>
+									<string>{   "groups": [     {       "$type": "device",       "id": "531278a2-a318-48d7-8e6a-0f0fd7589b07",       "name": "All Removable Media Devices",       "query": {         "$type": "all",         "clauses": [           {             "$type": "primaryId",             "value": "removable_media_devices"           }         ]       }     },     {       "$type": "device",       "id": "11111111-1111-1111-1111-111111111111",       "name": "APFS Encrypted Drives",       "query": {         "$type": "all",         "clauses": [           {             "$type": "encryption",             "value": "apfs"           }         ]       }     }   ],   "rules": [     {       "id": "23d42678-ca49-453d-bef0-cf48ffe8c6ae",       "name": "Audit and Deny all Unencrypted Removable Media",       "includeGroups": [         "531278a2-a318-48d7-8e6a-0f0fd7589b07"       ],       "entries": [         {           "$type": "removableMedia",           "id": "21fd9576-8deb-4824-98cc-8c29564a74b1",           "enforcement": {             "$type": "auditDeny",             "options": [               "send_event",               "show_notification"             ]           },           "access": [             "read",             "write",             "execute"           ]         }       ]     },     {       "id": "22222222-2222-2222-2222-222222222222",       "name": "Allow APFS Encrypted Drives",       "includeGroups": [         "11111111-1111-1111-1111-111111111111"       ],       "entries": [         {           "$type": "removableMedia",           "id": "33333333-3333-3333-3333-333333333333",           "access": [             "read",             "write",             "execute"           ],           "enforcement": {             "$type": "allow"           }         }       ]     }   ],   "settings": {     "features": {       "removableMedia": {         "disable": false       }     },     "global": {       "defaultEnforcement": "deny"     },     "ux": {       "navigationTarget": "https://security.virginia.edu/electronic-data-removal-procedures"     }   } }</string>
+								</dict>
+								<key>dlp</key>
+								<dict>
+									<key>features</key>
+									<array>
+										<dict>
+											<key>name</key>
+											<string>DC_in_dlp</string>
+											<key>state</key>
+											<string>enabled</string>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ManagedClient.preferences.4CFBE87D-88F7-4547-AA19-995019681537</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>4CFBE87D-88F7-4547-AA19-995019681537</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables Microsoft Defenders Data Loss Prevention Feature
+Turns on Device Control Policy 
+
+Denys all Unencrypted USB Removable Drives
+Allows all APFS Encrypted Removable Drives</string>
+	<key>PayloadDisplayName</key>
+	<string>TEMPLATE - Microsoft Defender - USB Removable Drives - Allow Encrypted Only</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>UVAJAMF.85C042C6-2B62-401B-A269-C66C70DD44C1</string>
+	<key>PayloadOrganization</key>
+	<string>UVA-ITS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>85C042C6-2B62-401B-A269-C66C70DD44C1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
