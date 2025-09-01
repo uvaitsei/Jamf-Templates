@@ -139,9 +139,7 @@
 										<key>icon</key>
 										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Qualys.png?raw=true</string>
 										<key>label</key>
-										<string>Qualys Cloud Agent - Exectech</string>
-										<key>policy</key>
-										<string>exqualys</string>
+										<string>Qualys Cloud Agent - EXAMPLE</string>
 									</dict>
 									<dict>
 										<key>icon</key>
@@ -263,13 +261,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Custom Settings</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.ManagedClient.preferences.13BD9A47-E16C-4F3F-A99D-5AA484E82376</string>
+			<string>com.apple.ManagedClient.preferences.8C8E4721-A7CD-401C-85FD-BD1DB7B754B9</string>
 			<key>PayloadOrganization</key>
 			<string>JAMF Software</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>13BD9A47-E16C-4F3F-A99D-5AA484E82376</string>
+			<string>8C8E4721-A7CD-401C-85FD-BD1DB7B754B9</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -279,7 +277,7 @@
 	<key>PayloadDisplayName</key>
 	<string>EXAMPLE - Jamf Setup Manager - Single User - Provisioning - Zero Touch - Default</string>
 	<key>PayloadIdentifier</key>
-	<string>UVAJAMF.6168BEB9-0CD6-4B13-A6D7-FA4E4BDAADD0</string>
+	<string>UVAJAMF.F7563F0A-3B6F-4198-8A55-72637771C86C</string>
 	<key>PayloadOrganization</key>
 	<string>UVA-ITS</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -289,7 +287,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6168BEB9-0CD6-4B13-A6D7-FA4E4BDAADD0</string>
+	<string>F7563F0A-3B6F-4198-8A55-72637771C86C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

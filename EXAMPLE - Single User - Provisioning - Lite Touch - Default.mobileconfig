@@ -131,9 +131,7 @@
 										<key>icon</key>
 										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Qualys.png?raw=true</string>
 										<key>label</key>
-										<string>Qualys Cloud Agent - Exectech</string>
-										<key>policy</key>
-										<string>exqualys</string>
+										<string>Qualys Cloud Agent - EXAMPLE</string>
 									</dict>
 									<dict>
 										<key>icon</key>
