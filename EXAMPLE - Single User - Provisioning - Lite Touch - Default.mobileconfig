@@ -49,14 +49,6 @@
 									</dict>
 									<dict>
 										<key>icon</key>
-										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
-										<key>label</key>
-										<string>Jamf Connect Install</string>
-										<key>policy</key>
-										<string>commonjamfconnectplusjsmafter</string>
-									</dict>
-									<dict>
-										<key>icon</key>
 										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABlueShieldWhiteCheck.png?raw=true</string>
 										<key>label</key>
 										<string>Security Group - Common</string>
@@ -185,22 +177,6 @@
 									</dict>
 									<dict>
 										<key>icon</key>
-										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
-										<key>label</key>
-										<string>Authentication - Jamf Connect</string>
-										<key>policy</key>
-										<string>commonauthenticationmethodjamfconnect</string>
-									</dict>
-									<dict>
-										<key>icon</key>
-										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
-										<key>label</key>
-										<string>Privilege Escalation - Jamf Connect</string>
-										<key>policy</key>
-										<string>commonpriviledgeescalationjamfconnect</string>
-									</dict>
-									<dict>
-										<key>icon</key>
 										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/CiscoSecureClient.png?raw=true</string>
 										<key>label</key>
 										<string>Cisco Secure Client</string>
@@ -212,8 +188,6 @@
 								<string>continue</string>
 								<key>finalCountdown</key>
 								<integer>30</integer>
-								<key>finishedTrigger</key>
-								<string>commonjamfconnectplus</string>
 								<key>help</key>
 								<dict>
 									<key>message</key>
@@ -238,7 +212,7 @@
 								<key>simulateMDM</key>
 								<string>Jamf Pro</string>
 								<key>title</key>
-								<string>Example Group Zero Touch</string>
+								<string>Example Group LIte Touch</string>
 								<key>totalDownloadBytes</key>
 								<integer>1000000000</integer>
 								<key>userID</key>
@@ -263,13 +237,13 @@
 			<key>PayloadDisplayName</key>
 			<string>Custom Settings</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.ManagedClient.preferences.13BD9A47-E16C-4F3F-A99D-5AA484E82376</string>
+			<string>com.apple.ManagedClient.preferences.B4C29E60-D6D3-4C08-A5D5-A6CB61ECDA72</string>
 			<key>PayloadOrganization</key>
 			<string>JAMF Software</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
-			<string>13BD9A47-E16C-4F3F-A99D-5AA484E82376</string>
+			<string>B4C29E60-D6D3-4C08-A5D5-A6CB61ECDA72</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -277,9 +251,9 @@
 	<key>PayloadDescription</key>
 	<string>Jamf Setup Manager Settings Defaults for Jamf Early Access</string>
 	<key>PayloadDisplayName</key>
-	<string>EXAMPLE - Jamf Setup Manager - Single User - Provisioning - Zero Touch - Default</string>
+	<string>EXAMPLE - Jamf Setup Manager - Single User - Provisioning - Lite Touch - Default</string>
 	<key>PayloadIdentifier</key>
-	<string>UVAJAMF.6168BEB9-0CD6-4B13-A6D7-FA4E4BDAADD0</string>
+	<string>UVAJAMF.1788B1D3-AB3E-436E-874E-A920437EBEDC</string>
 	<key>PayloadOrganization</key>
 	<string>UVA-ITS</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -289,7 +263,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6168BEB9-0CD6-4B13-A6D7-FA4E4BDAADD0</string>
+	<string>1788B1D3-AB3E-436E-874E-A920437EBEDC</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
