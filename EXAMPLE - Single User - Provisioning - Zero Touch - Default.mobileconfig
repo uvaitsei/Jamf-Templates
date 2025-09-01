@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.jamf.setupmanager</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DEBUG</key>
+								<false/>
+								<key>accentColor</key>
+								<string>#232D4B</string>
+								<key>background</key>
+								<string>https://github.com/uvaitsei/JamfImages/blob/main/BACKGROUNDS/Desktop/Rotunda_Lawn_Summer_Aerial_ss_05.high.jpg?raw=true</string>
+								<key>computerNameTemplate</key>
+								<string>EX-%serial%</string>
+								<key>enrollmentActions</key>
+								<array>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Apple%20-%20Rosetta2.png?raw=true</string>
+										<key>label</key>
+										<string>Rosetta 2</string>
+										<key>policy</key>
+										<string>commonrosetta2</string>
+									</dict>
+									<dict>
+										<key>arguments</key>
+										<array>
+											<string>-setTimeZone</string>
+											<string>America/New_York</string>
+										</array>
+										<key>icon</key>
+										<string>symbol:clock</string>
+										<key>label</key>
+										<string>Set Time Zone</string>
+										<key>requiresRoot</key>
+										<true/>
+										<key>shell</key>
+										<string>/usr/sbin/systemsetup</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
+										<key>label</key>
+										<string>Jamf Connect Install</string>
+										<key>policy</key>
+										<string>commonjamfconnectplusjsmafter</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABlueShieldWhiteCheck.png?raw=true</string>
+										<key>label</key>
+										<string>Security Group - Common</string>
+										<key>policy</key>
+										<string>commonsecuritygroup</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABlueSheildWhiteUser2.png?raw=true</string>
+										<key>label</key>
+										<string>Self Service - Common</string>
+										<key>policy</key>
+										<string>commonuvajamfselfservice</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABllueShieldOrangeLock.png?raw=true</string>
+										<key>label</key>
+										<string>Configuration Group - Common</string>
+										<key>policy</key>
+										<string>commonuvajamfconfigurationgroup</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABllueShieldOrangeLock.png?raw=true</string>
+										<key>label</key>
+										<string>Restrictions - Common</string>
+										<key>policy</key>
+										<string>commonrestrictons</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/UVABllueShieldOrangeLock.png?raw=true</string>
+										<key>label</key>
+										<string>Power Profile - Common</string>
+										<key>policy</key>
+										<string>commonpowerprofile</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Single%20User%20-%20Blue.png?raw=true</string>
+										<key>label</key>
+										<string>Device Usage - Single User</string>
+										<key>policy</key>
+										<string>commondeviceusagesingleuser</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Configure.png?raw=true</string>
+										<key>label</key>
+										<string>Maintainance Window - Inactive</string>
+										<key>policy</key>
+										<string>commonmaintainancewindowinactive</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Apple.png?raw=true</string>
+										<key>label</key>
+										<string>OS Update Group - Production</string>
+										<key>policy</key>
+										<string>commonosupdategroupprod</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Provisioning.png?raw=true</string>
+										<key>label</key>
+										<string>Software Update Group - Production</string>
+										<key>policy</key>
+										<string>commonsoftwareupdategroupprod</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/MicrosoftStore-MicrosoftDefender.png?raw=true</string>
+										<key>installomator</key>
+										<string>microsoftdefender</string>
+										<key>label</key>
+										<string>Microsoft Defender</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Qualys.png?raw=true</string>
+										<key>label</key>
+										<string>Qualys Cloud Agent - Exectech</string>
+										<key>policy</key>
+										<string>exqualys</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/SwiftDialog.png?raw=true</string>
+										<key>label</key>
+										<string>Swift Dialog</string>
+										<key>policy</key>
+										<string>commonswiftdialog</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Microsoft-Teams.png?raw=true</string>
+										<key>label</key>
+										<string>Microsoft Teams</string>
+										<key>policy</key>
+										<string>commonteams</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/SupportApp.png?raw=true</string>
+										<key>label</key>
+										<string>Support App</string>
+										<key>policy</key>
+										<string>commonsupportapp</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Zoom.png?raw=true</string>
+										<key>label</key>
+										<string>Zoom</string>
+										<key>policy</key>
+										<string>commonzoom</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/Microsoft-365Copilot.png?raw=true</string>
+										<key>label</key>
+										<string>Microsoft 365 (Large Install may take 5 -10 min)</string>
+										<key>policy</key>
+										<string>commonmicrosoftoffice</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
+										<key>label</key>
+										<string>Authentication - Jamf Connect</string>
+										<key>policy</key>
+										<string>commonauthenticationmethodjamfconnect</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/JamfConnect.png?raw=true</string>
+										<key>label</key>
+										<string>Privilege Escalation - Jamf Connect</string>
+										<key>policy</key>
+										<string>commonpriviledgeescalationjamfconnect</string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>https://github.com/uvaitsei/JamfImages/blob/main/ICONS/CiscoSecureClient.png?raw=true</string>
+										<key>label</key>
+										<string>Cisco Secure Client</string>
+										<key>policy</key>
+										<string>commonciscovpn</string>
+									</dict>
+								</array>
+								<key>finalAction</key>
+								<string>continue</string>
+								<key>finalCountdown</key>
+								<integer>30</integer>
+								<key>finishedTrigger</key>
+								<string>commonjamfconnectplus</string>
+								<key>help</key>
+								<dict>
+									<key>message</key>
+									<string>This is some help message content.</string>
+									<key>title</key>
+									<string>Help Content</string>
+									<key>url</key>
+									<string>https://jamf.com</string>
+								</dict>
+								<key>hideActionLabels</key>
+								<false/>
+								<key>hideDebugLabel</key>
+								<false/>
+								<key>icon</key>
+								<string>https://use2.ics.services.jamfcloud.com/icon/hash_09a90733699236caa5db951ad96731495048c74e53d927a47db8e33b45212c83</string>
+								<key>jssID</key>
+								<string>$JSSID</string>
+								<key>message</key>
+								<string>Software Installation Starting</string>
+								<key>runAt</key>
+								<string>enrollment</string>
+								<key>simulateMDM</key>
+								<string>Jamf Pro</string>
+								<key>title</key>
+								<string>Example Group</string>
+								<key>totalDownloadBytes</key>
+								<integer>1000000000</integer>
+								<key>userID</key>
+								<string>$EMAIL</string>
+								<key>webhooks</key>
+								<dict>
+									<key>finished</key>
+									<array>
+										<dict>
+											<key>kind</key>
+											<string>teams</string>
+											<key>url</key>
+											<string>https://myuva.webhook.office.com/webhookb2/571662ba-622a-4a15-8fb6-4ff92b1544e5@7b3480c7-3707-4873-8b77-e216733a65ac/IncomingWebhook/ad9a299995a84f2588edcfee84636fe4/bf71ae9e-e07e-48ed-abee-d7c38330b485/V2ZYE-y3mTS3JBVp_L5KexZDask8PIXOARaqQ9giPRrP81</string>
+										</dict>
+									</array>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Custom Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ManagedClient.preferences.98C30D29-7321-40CF-9615-768BD2A2B31B</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>98C30D29-7321-40CF-9615-768BD2A2B31B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Jamf Setup Manager Settings Defaults for Jamf Early Access</string>
+	<key>PayloadDisplayName</key>
+	<string>EXAMPLE - Jamf Setup Manager - Single User - Provisioning - Zero Touch - Default</string>
+	<key>PayloadIdentifier</key>
+	<string>UVAJAMF.41A0854D-66D5-4A16-BA37-B8B511CAF491</string>
+	<key>PayloadOrganization</key>
+	<string>UVA-ITS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>41A0854D-66D5-4A16-BA37-B8B511CAF491</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
