@@ -126,6 +126,8 @@
 										<string>microsoftdefender</string>
 										<key>label</key>
 										<string>Microsoft Defender</string>
+										<key>policy</key>
+										<string>commondefender</string>
 									</dict>
 									<dict>
 										<key>icon</key>
