@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadUUID</key>
+        <string>2200ac23-19d0-4498-b74e-ea3e917a9970</string>
+        <key>PayloadOrganization</key>
+        <string>JAMF Software</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>2200ac23-19d0-4498-b74e-ea3e917a9970</string>
+        <key>PayloadDescription</key>
+        <string>MDM Profile for mobile device management</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+        <key>PayloadDisplayName</key>
+        <string>MDM Profile</string>
+        <key>PayloadContent</key>
+        <dict>
+            <key>Challenge</key>
+            <string>123336566229408031871271458074470743366</string>
+            <key>URL</key>
+            <string>https://itsemp.jamfcloud.com/enroll/profile</string>
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>PRODUCT</string>
+                <string>SERIAL</string>
+                <string>VERSION</string>
+                <string>DEVICE_NAME</string>
+                <string>COMPROMISED</string>
+            </array>
+        </dict>
+    </dict>
+</plist>
